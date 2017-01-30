@@ -37,13 +37,7 @@ describe( 'calculator', function () {
 
   describe( 'Failures Test#' + i,
     function () {
-      it( 'should add ' + number1 + ' plus ' + number2 + ' and be equals to ' + ( number1 + number2 ), function () {
-        expect( Calculator.add( number1, number2 ) ).toBe( number1 - number2 );
-      } );
-
-      it( 'should add ' + 'a' + ' plus ' + number2 + ' and be equals to ' + ( 'a' + number2 ), function () {
-        expect( Calculator.add( 'a', number2 ) ).toBe( 'a' - number2 );
-      } );
+    
 
       it( 'should add ' + number1 + ' plus ' + number2 + ' and be equals to ' + ( number1 + number2 ), function () {
         expect( Calculator.add( [ number1, number2 ] ) ).toBe( number1 - number2 );

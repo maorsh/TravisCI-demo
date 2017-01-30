@@ -39,20 +39,5 @@ describe( 'calculator', function () {
     function () {
     
 
-      it( 'should add ' + number1 + ' plus ' + number2 + ' and be equals to ' + ( number1 + number2 ), function () {
-        expect( Calculator.add( [ number1, number2 ] ) ).toBe( number1 - number2 );
-      } );
-
-      it( 'should subtract ' + number1 + ' from ' + number2 + ' and be equals to ' + ( number1 - number2 ), function () {
-        expect( Calculator.sub( number1, number2 ) ).toBe( number1 + number2 );
-      } );
-
-      it( 'should multiply ' + number1 + 'x' + number2 + ' and be equals to ' + ( number1 * number2 ), function () {
-        expect( Calculator.mul( number1, number2 ) ).toBe( number1 - number2 );
-      } );
-
-      it( 'should divide ' + number1 + '/' + number2 + ' and be equals to ' + ( number2 && number1 / number2 ), function () {
-        expect( Calculator.div( number1, number2 ) ).toBe( number2 && number1 * number2 );
-      } );
-    } );
+  
 } );

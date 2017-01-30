@@ -39,5 +39,6 @@ describe( 'calculator', function () {
     function () {
     
 
-  
-} );
+     } );
+
+}
